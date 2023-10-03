@@ -1,4 +1,5 @@
 import { Client, Databases, Account } from 'appwrite';
+// const dotenv = require('dotenv').config({ path: './.env' })
 
 // const sdk = require('node-appwrite')
 

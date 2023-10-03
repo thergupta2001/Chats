@@ -10,7 +10,13 @@ import { Trash2 } from "react-feather";
 import Header from "../components/Header";
 import { useAuth } from "../utils/AuthContext";
 
+
+// import dotenv from 'dotenv';
+// dotenv.config();
+
 const Room = () => {
+  // console.log('hello')
+  // console.log(process.env.PROJECT_ID);
   const { user } = useAuth();
 
   const [messages, setMessages] = useState([]);
